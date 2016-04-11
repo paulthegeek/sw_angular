@@ -2,6 +2,7 @@
   "use strict"
 
   require("angular");
+  require('angular-ui-router');
   require("./app_require.js");
 
   angular
@@ -9,12 +10,12 @@
     .config(config);
 
   function config($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/people");
+    $urlRouterProvider.otherwise("/");
 
     $stateProvider
       .state("people", {
         url: "/people",
-        templateUrl: "modules/people/people_index.html",
+        templateUrl: "modules/people/peoples.html",
         controller: "PeopleController",
         controllerAs: "peopleCtrl"
       });

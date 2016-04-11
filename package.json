@@ -11,7 +11,7 @@
     "jasmine": "2.4.1",
     "lodash": "4.9.0",
     "morgan": "1.7.0",
-    "ui-router": "1.0.0-alpha.3",
+    "angular-ui-router": "0.2.18",
     "vinyl-source-stream": "1.1.0"
   },
   "devDependencies": {
