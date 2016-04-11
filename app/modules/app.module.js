@@ -2,6 +2,7 @@
   "use strict"
 
   require("angular");
+  require("./app_require.js");
 
   angular
     .module("app", ["app.people", "ui.router"])

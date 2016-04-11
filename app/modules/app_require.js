@@ -1,1 +1,1 @@
-require("./people/people_require.js")
+require("./people/people_require.js");

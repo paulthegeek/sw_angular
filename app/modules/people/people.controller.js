@@ -2,7 +2,7 @@
   "use strict";
 
   angular
-    .module("app.people", [])
+    .module("app.people")
     .controller("PeopleController", PeopleController);
 
   function PeopleController() {
